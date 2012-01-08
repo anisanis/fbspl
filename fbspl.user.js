@@ -61,6 +61,9 @@ document.addEventListener('mousedown', function(e) {
     else if (parentClass.indexOf('uiButton') >= 0 && parentClass.indexOf('uiButtonConfirm') >= 0) {
         targets = parent.parentNode.parentNode.parentNode.getElementsByClassName('MessagingComposerBody');
     }
+    else {
+        return;
+    }
 
     for (n in targets) {
         targets[n].value = process(targets[n].value);
