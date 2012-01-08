@@ -1,88 +1,254 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <meta charset='utf-8'>
-
-  <title>eopin/FbSpl @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #900079;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #6fff86; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #6fff86; }
-    h3 { text-align: center; color: #6fff86; }
-    a { color: #6fff86; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
+    <title>FbSpl : SimpleFace emoticons for Facebook</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-  <a href="https://github.com/eopin/FbSpl"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="https://github.com/eopin/FbSpl/zipball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
-      <a href="https://github.com/eopin/FbSpl/tarball/master">
-        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+    <div id="wrapper">
+        <div id="header">
+            <h1 class="title"><span>Fb</span>Spl</h1>
+            <div class="tagline">SimpleFace emoticon set for Facebook</div>
+        </div>
+        <div id="preview-tag" class="content">
+            <!-- Nothing to write here -->
+        </div>
+        <div id="install-button">
+            <h2 class="hide">Install</h2>
+            <a href="fbspl.user.js"><span>Install</span><span>Chrome &amp; Firefox (Firefox users must install</a>
+        </div>
+        <div id="emoticon-list">
+            <h2>Emoticon list</h2>
+            <div class="content">
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/164104313697611/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Smile</span>
+                    <span class="emoticon-writing">:)&nbsp;&nbsp;:-)&nbsp;&nbsp;=)</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/204596902965712/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Big Smile</span>
+                    <span class="emoticon-writing">:D&nbsp;&nbsp;:-D&nbsp;&nbsp;=D</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/130240357092474/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Sad</span>
+                    <span class="emoticon-writing">:(&nbsp;&nbsp;:-(&nbsp;&nbsp;=(&nbsp;&nbsp;:/&nbsp;&nbsp;:-/&nbsp;&nbsp;=/</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/184678621630976/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Cry</span>
+                    <span class="emoticon-writing">:'(&nbsp;&nbsp;='(</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/352023391491370/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Mad</span>
+                    <span class="emoticon-writing">&gt;:(&nbsp;&nbsp;&gt;:-(&nbsp;&nbsp;&gt;:/&nbsp;&nbsp;&gt;:-/&nbsp;&nbsp;&gt;=(&nbsp;&nbsp;&gt;=/</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/337683366244900/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Evil</span>
+                    <span class="emoticon-writing">&gt;:)&nbsp;&nbsp;&gt;:-)&nbsp;&nbsp;&gt;:D&nbsp;&nbsp;&gt;:-D&nbsp;&nbsp;&gt;=)&nbsp;&nbsp;&gt;=D</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/151238381652801/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Excited</span>
+                    <span class="emoticon-writing">&gt;:p&nbsp;&nbsp;&gt;:-p&nbsp;&nbsp;&gt;:P&nbsp;&nbsp;&gt;:-P&nbsp;&nbsp;&gt;=p&nbsp;&nbsp;&gt;=P</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/211036838985323/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Confused</span>
+                    <span class="emoticon-writing">:s&nbsp;&nbsp;:-s&nbsp;&nbsp;:S&nbsp;&nbsp;:-S&nbsp;&nbsp;=s&nbsp;&nbsp;=S</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/268411576553642/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Catface</span>
+                    <span class="emoticon-writing">:3&nbsp;&nbsp;:-3&nbsp;&nbsp;=3</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/344415832238119/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Disgusted</span>
+                    <span class="emoticon-writing">:x&nbsp;&nbsp;:-x&nbsp;&nbsp;=x&nbsp;&nbsp;:X&nbsp;&nbsp;:-X&nbsp;&nbsp;=X</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/217385821680703/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Crossed eyes</span>
+                    <span class="emoticon-writing">x(&nbsp;&nbsp;x-(&nbsp;&nbsp;X(&nbsp;&nbsp;X-(&nbsp;&nbsp;&gt;.&lt;&nbsp;&nbsp;&gt;_&lt;&nbsp;&nbsp;&gt;&lt;</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/333325090026022/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Cool</span>
+                    <span class="emoticon-writing">8)&nbsp;&nbsp;8-)&nbsp;&nbsp;B)&nbsp;&nbsp;B-)</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/204363646321398/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Ouch!</span>
+                    <span class="emoticon-writing">xq&nbsp;&nbsp;x-q</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/305131536192226/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Laughing with crossed Eyes</span>
+                    <span class="emoticon-writing">xD&nbsp;&nbsp;x-D&nbsp;&nbsp;XD&nbsp;&nbsp;X-D</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/319216284785857/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Smiling with crossed Eyes</span>
+                    <span class="emoticon-writing">x)&nbsp;&nbsp;x-)&nbsp;&nbsp;X)&nbsp;&nbsp;X-)</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/145393482239598/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Surprised</span>
+                    <span class="emoticon-writing">:o&nbsp;&nbsp;:-o&nbsp;&nbsp;=o&nbsp;&nbsp;:O&nbsp;&nbsp;:-O&nbsp;&nbsp;=O</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/324465504241121/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Attention sign</span>
+                    <span class="emoticon-writing">:!:</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/172447269522759/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Tongue</span>
+                    <span class="emoticon-writing">:p&nbsp;&nbsp;:-p&nbsp;&nbsp;=p&nbsp;&nbsp;:P&nbsp;&nbsp;:-P&nbsp;&nbsp;=P</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/265553776842695/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Tongue up</span>
+                    <span class="emoticon-writing">:q&nbsp;&nbsp;:-q&nbsp;&nbsp;=q&nbsp;&nbsp;:X&nbsp;&nbsp;:-X&nbsp;&nbsp;=X</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/265329760196296/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Shocked</span>
+                    <span class="emoticon-writing">O_O&nbsp;&nbsp;O.O</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/303899189651658/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Wink</span>
+                    <span class="emoticon-writing">;)&nbsp;&nbsp;;-)</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/209826549103810/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Perstinent</span>
+                    <span class="emoticon-writing">:&lt;&nbsp;&nbsp;=&lt;&nbsp;&nbsp;&gt;:&lt;&nbsp;&nbsp;&gt;=&lt;&nbsp;&nbsp;&gt;:-&lt;</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/127222190728782/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Robot face</span>
+                    <span class="emoticon-writing">:[]&nbsp;&nbsp;:|]&nbsp;&nbsp;=[]&nbsp;&nbsp;=|]</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/284960671551841/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Nope!</span>
+                    <span class="emoticon-writing">u_u&nbsp;&nbsp;u.u</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/337065526322598/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Glad</span>
+                    <span class="emoticon-writing">^^&nbsp;&nbsp;^_^&nbsp;&nbsp;^.^</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/204750932948206/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Hehe</span>
+                    <span class="emoticon-writing">^^&quot;&nbsp;&nbsp;^_^&quot;&nbsp;&nbsp;^.^&quot;</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/142389959208965/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Eating</span>
+                    <span class="emoticon-writing">:u&nbsp;&nbsp;:-u&nbsp;&nbsp;=u&nbsp;&nbsp;:y&nbsp;&nbsp;:-y&nbsp;&nbsp;=y</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/321764657857582/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Jealous</span>
+                    <span class="emoticon-writing">&gt;_&gt;&nbsp;&nbsp;&gt;.&gt;&nbsp;&nbsp;&lt;_&lt;&nbsp;&nbsp;&lt;.&lt;</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/355724081111066/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Hein?</span>
+                    <span class="emoticon-writing">o_O&nbsp;&nbsp;O_o</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/317998471556965/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Fiouh</span>
+                    <span class="emoticon-writing">|-°&nbsp;&nbsp;:fiouh:</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/331768860175578/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Hourray!</span>
+                    <span class="emoticon-writing">\o/&nbsp;&nbsp;:hourray:</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/163484183756021/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Kiss</span>
+                    <span class="emoticon-writing">:-*&nbsp;&nbsp;:*&nbsp;&nbsp;=*&nbsp;&nbsp;°3°</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/147828715328183/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Laughing hard</span>
+                    <span class="emoticon-writing">:'D&nbsp;&nbsp;='D&nbsp;&nbsp;:lol:</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/149893701787931/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Heart</span>
+                    <span class="emoticon-writing">&lt;3</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/302089176493288/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Car Face (2)</span>
+                    <span class="emoticon-writing">|3&nbsp;&nbsp;|-3</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/226849060726662/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">No idea</span>
+                    <span class="emoticon-writing">:?:</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/296405883745220/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Didn't see a thing</span>
+                    <span class="emoticon-writing">:-°</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/271459569575165/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Neutral</span>
+                    <span class="emoticon-writing">:|&nbsp;&nbsp;:-|&nbsp;&nbsp;=|</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/338514279509481/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Devil</span>
+                    <span class="emoticon-writing">3:)&nbsp;&nbsp;3:-)&nbsp;&nbsp;3=)&nbsp;&nbsp;3:D&nbsp;&nbsp;3:-D&nbsp;&nbsp;3=D</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/276988729026771/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Angel</span>
+                    <span class="emoticon-writing">0:)&nbsp;&nbsp;0:-)&nbsp;&nbsp;0=)&nbsp;&nbsp;O:)&nbsp;&nbsp;O:-)&nbsp;&nbsp;O=)</span>
+                </div>
+                <div class="emoticon-row">
+                    <span class="emoticon-icon"><img src="https://graph.facebook.com/212999192121322/picture" alt="Big smile"></span>
+                    <span class="emoticon-name">Small</span>
+                    <span class="emoticon-writing">._.</span>
+                </div>
+            </div>
+        </div>
+        <div id="faq">
+            <h2>Frequently asked questions</h2>
+            <div class="content">
+                <div class="question-row">
+                    <h3>How does it work?</h3>
+                    <p>FbSpl takes advantage of Facebook's support of [[ID]] (where ID can be the Numerical ID or Username of either a Profile or Page).</p>
+                    <p>I made a page for each and single emoticon and wrote a userscript that transcribes common emoticon format into [[ID]] format.</p>
+                </div>
+                <div class="question-row">
+                    <h3>I want to make my own emoticon set, can I?</h3>
+                    <p>Of course! FbSpl is opensource and can be <a href="https://github.com/eopin/FbSpl" title="eopin/FbSpl - GitHub">forked on GitHub</a>. All what you have to do is to create Facebook pages, update IDs and urls in the script and host them somewhere!</p>
+                    <p>However, you should keep it up to date whenever a bugfix is added.</p>
+                </div>
+                <div class="question-row">
+                    <h3>Where can I suggest new features or report bugs?</h3>
+                    <p>You can always post an new issue <a href="https://github.com/eopin/FbSpl/issues" title="Isses - eopin/FbSpl - GitHub">Here!</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            (c) 2012 - Eopin
+        </div>
     </div>
-
-    <h1><a href="https://github.com/eopin/FbSpl">FbSpl</a>
-      <span class="small">by <a href="https://github.com/eopin">eopin</a></span></h1>
-
-    <div class="description">
-      SimpleFace emoticon set for Facebook
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-      <h2>Authors</h2>
-      <p>Said Dermoumi (sdermoumi@gmail.com)<br/>      </p>
-    
-
-    
-      <h2>Contact</h2>
-      <p> (sdermoumi@gmail.com)<br/>      </p>
-    
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="https://github.com/eopin/FbSpl/zipball/master">zip</a> or
-      <a href="https://github.com/eopin/FbSpl/tarball/master">tar formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/eopin/FbSpl</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="https://github.com/eopin/FbSpl">eopin/FbSpl</a>
-    </div>
-
-  </div>
-
 </body>
 </html>

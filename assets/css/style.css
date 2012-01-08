@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #45293C;
+    font-family: sans-serif;
+    font-size: 62.5%;
+    color: #333;
+}
+
+code {
+    font-family: monospace;
+    font-size: 14px;
+    background: #E3E3E3;
+    padding: 0 3px;
+}
+
+a {
+    color: #45293C;
+    text-decoration: none;
+}
+a:hover {
+    color: #65495C;
+    text-decoration: underline;
+}
+
+#wrapper {
+    max-width: 666px;
+    min-width: 500px;
+    margin: 40px auto 20px auto;
+    padding: 0 10px;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+#header {
+    background: url('../images/title.gif') no-repeat center center;
+    background-size: 100% auto;
+    max-width: 644px;
+    height: 89px;
+}
+
+#preview-tag {
+    background: url('../images/example.jpg') no-repeat right center;
+    height: 250px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#install-button {
+    margin: -78px 10px 10px 10px;
+}
+#install-button a {
+    background: #FFCC00 url('../images/installnow.gif') no-repeat center center;
+    width: 322px;
+    height: 48px;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+    text-indent: -9999px;
+}
+
+#install-button a:hover {
+    background-color: #FFDD00;
+}
+
+#emoticon-list, #faq {
+    margin-top: 40px;
+}
+#emoticon-list h2, #faq h2 {
+    text-indent: -9999px;
+    padding: 0;
+    height: 22px;
+    margin: 0 10px 10px 10px;
+}
+#emoticon-list .content, #faq .content {
+    padding: 5px 10px;
+}
+#emoticon-list .emoticon-row, #faq .question-row {
+    border-bottom: 1px dashed #888;
+    padding: 6px 0;
+}
+#emoticon-list .emoticon-row:last-child, #faq .question-row:last-child {
+    border-bottom: none !important;
+}
+
+#faq h2 {
+    background: url('../images/faq.gif') no-repeat left center;
+}
+#faq h3 {
+    padding: 0;
+    margin: 0 10px 5px 10px;
+    font-size: 1.3em;
+}
+#faq p {
+    padding: 0;
+    margin: 0 20px 5px 20px;
+    text-align: justify;
+}
+
+#emoticon-list h2 {
+    background: url('../images/emoticonlist.gif') no-repeat left center;
+}
+#emoticon-list .emoticon-icon {
+    padding: 0 10px;
+    width: 30px;
+    display: inline-block;
+}
+#emoticon-list .emoticon-icon img {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0;
+}
+#emoticon-list .emoticon-name {
+    width: 200px;
+    display: inline-block;
+}
+#emoticon-list .emoticon-writing {
+    font-family: monospace;
+    display: inline-block;
+    font-size: 14px;
+}
+
+#footer {
+    color: #FFF;
+    text-align: right;
+    padding: 20px 10px 0px 10px;
+    font-size: .8em;
+}
+.content {
+    background-color: #FFF !important;
+    border-radius: 3px;
+}
+
+#header h1, #header .tagline, #install-button h2 {
+    display: none;
+}
